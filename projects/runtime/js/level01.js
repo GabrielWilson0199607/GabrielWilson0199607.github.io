@@ -47,7 +47,10 @@ var level01 = function (window) {
             obstacleImage.y = -25
             sawBladeHitZone.addChild(obstacleImage);
         };
-        
+        createSawBlade(500, 300)
+        createSawBlade(800, 300)
+        createSawBlade(1000, 400)
+
 
 
         function createObstacle(x, y) {
