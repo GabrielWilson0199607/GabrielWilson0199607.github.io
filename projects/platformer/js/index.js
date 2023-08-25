@@ -36,7 +36,7 @@ $(document).ready(function () {
         game.physics.arcade.collide(asset, game.projectile);
         game.physics.arcade.collide(collectable, game.platforms);
         game.physics.arcade.overlap(asset, collectable, collectDb, null, this);
-        game.physics.arcade.overlap(asset, game.projectile, onProjectileOverlap, null, this);
+        game.physics.arcade.overlap(asset, game.projectile, onProjectileOverlap, null, this); 
         
         playerManager.update();
     }
